@@ -1,6 +1,6 @@
 {% set theme_name = "tactile" %}
 {% set name = '-'.join(['jekyll-theme', theme_name]) %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: be741cee5c19889546c07ef6fca743539a9c270a37520e7f9eb89e9de56204a4
+  sha256: b7861b48aed5b2385d7a146b13f31cb6f37afe3107f4a6b93b1c932b2d242652
 
 build:
   noarch: generic
